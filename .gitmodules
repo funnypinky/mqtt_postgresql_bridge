@@ -1,3 +1,9 @@
 [submodule "lib/paho.mqtt.c"]
 	path = lib/paho.mqtt.c
 	url = https://github.com/eclipse/paho.mqtt.c.git
+[submodule "lib/paho.mqtt.cpp"]
+	path = lib/paho.mqtt.cpp
+	url = https://github.com/eclipse/paho.mqtt.cpp.git
+[submodule "lib/fmt"]
+	path = lib/fmt
+	url = https://github.com/fmtlib/fmt.git

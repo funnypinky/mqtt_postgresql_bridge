@@ -17,6 +17,6 @@ find_package(libpqxx REQUIRED)
 find_library(PQ_lib pq)
 
 
-add_executable(mqtt_mongodb main.cpp)
+add_executable(mqtt_postgresql main.cpp)
 
-target_link_libraries(mqtt_mongodb paho-mqttpp3 paho-mqtt3as pqxx ${PQ_lib} fmt)
+target_link_libraries(mqtt_postgresql paho-mqttpp3 paho-mqtt3as pqxx ${PQ_lib} fmt)
