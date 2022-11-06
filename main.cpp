@@ -37,7 +37,7 @@
 #include <cctype>
 #include <thread>
 #include <chrono>
-#include "lib/fmt/include/fmt/core.h"
+#include "fmt/core.h"
 #include "mqtt/async_client.h"
 #include "pqxx/pqxx"
 #include "nlohmann/json.hpp"

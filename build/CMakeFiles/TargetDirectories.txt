@@ -1,6 +1,0 @@
-/home/office/source/cpp/mqtt_mongodb_bridge/build/CMakeFiles/mqtt_mongodb.dir
-/home/office/source/cpp/mqtt_mongodb_bridge/build/CMakeFiles/edit_cache.dir
-/home/office/source/cpp/mqtt_mongodb_bridge/build/CMakeFiles/rebuild_cache.dir
-/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/fmt/CMakeFiles/fmt.dir
-/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/fmt/CMakeFiles/edit_cache.dir
-/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/fmt/CMakeFiles/rebuild_cache.dir

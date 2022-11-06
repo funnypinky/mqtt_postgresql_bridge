@@ -1,1 +1,0 @@
-/usr/bin/clang++-15 -g CMakeFiles/mqtt_mongodb.dir/main.cpp.o -o mqtt_mongodb   -L/home/office/source/cpp/mqtt_mongodb_bridge/lib  -Wl,-rpath,/home/office/source/cpp/mqtt_mongodb_bridge/lib -lpaho-mqttpp3 -lpaho-mqtt3as -lpqxx /usr/lib/x86_64-linux-gnu/libpq.so lib/fmt/libfmtd.a 
