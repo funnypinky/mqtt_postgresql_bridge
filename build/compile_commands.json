@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/include -g -std=gnu++20 -o CMakeFiles/mqtt_mongodb.dir/main.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/main.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/main.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/fmt",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/include -g -std=gnu++20 -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/src/format.cc",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/src/format.cc"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/fmt",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/include -g -std=gnu++20 -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/src/os.cc",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/src/os.cc"
+}
+]

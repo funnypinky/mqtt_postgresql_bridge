@@ -1,0 +1,3 @@
+{"cmd":"data","src":"E8:68:E7:2D:28:28","vals":[{"nm":"bat","val":4124},{"nm":"panel","val":4605},{"nm":"temperature","val":12.54024601},{"nm":"rel humidity","val":86.95353699},{"nm":"pressure","val":102310}],"time":1662356262}
+{"cmd":"data","src":"E8:68:E7:2D:28:28","vals":[{"nm":"bat","val":4117},{"nm":"panel","val":4605},{"nm":"temperature","val":12.15838909},{"nm":"rel humidity","val":88.04302979},{"nm":"pressure","val":102314}],"time":1662356140}
+{"cmd":"data","src":"E8:68:E7:2D:28:28","vals":[{"nm":"bat","val":4117},{"nm":"panel","val":4601},{"nm":"temperature","val":11.74715805},{"nm":"rel humidity","val":89.36904144},{"nm":"pressure","val":102316}],"time":1662356018}
