@@ -1,0 +1,322 @@
+[
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/include -g -std=gnu++17 -o CMakeFiles/mqtt_postgresql.dir/main.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/main.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/main.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/fmt",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/include -g -std=gnu++17 -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/src/format.cc",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/src/format.cc"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/fmt",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/include -g -std=gnu++17 -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/src/os.cc",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt/src/os.cc"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/MQTTTime.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTTime.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTTime.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/MQTTProtocolClient.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTProtocolClient.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTProtocolClient.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/Clients.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Clients.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Clients.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/utf-8.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/utf-8.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/utf-8.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/MQTTPacket.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTPacket.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTPacket.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/MQTTPacketOut.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTPacketOut.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTPacketOut.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/Messages.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Messages.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Messages.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/Tree.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Tree.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Tree.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/Socket.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Socket.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Socket.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/Log.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Log.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Log.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/MQTTPersistence.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTPersistence.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTPersistence.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/Thread.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Thread.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Thread.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/MQTTProtocolOut.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTProtocolOut.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTProtocolOut.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/MQTTPersistenceDefault.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTPersistenceDefault.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTPersistenceDefault.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/SocketBuffer.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/SocketBuffer.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/SocketBuffer.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/LinkedList.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/LinkedList.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/LinkedList.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/MQTTProperties.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTProperties.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTProperties.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/MQTTReasonCodes.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTReasonCodes.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTReasonCodes.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/Base64.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Base64.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Base64.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/SHA1.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/SHA1.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/SHA1.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/WebSocket.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/WebSocket.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/WebSocket.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/Proxy.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Proxy.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Proxy.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/StackTrace.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/StackTrace.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/StackTrace.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g -fPIC   -fvisibility=hidden -o CMakeFiles/common_obj.dir/Heap.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Heap.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Heap.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -Dpaho_mqtt3c_EXPORTS -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -I/home/office/source/cpp/mqtt_mongodb_bridge/build -g -fPIC   -fvisibility=hidden -o CMakeFiles/paho-mqtt3c.dir/MQTTClient.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTClient.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTClient.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -Dpaho_mqtt3a_EXPORTS -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -I/home/office/source/cpp/mqtt_mongodb_bridge/build -g -fPIC   -fvisibility=hidden -o CMakeFiles/paho-mqtt3a.dir/MQTTAsync.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTAsync.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTAsync.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_EXPORTS=1 -D_GNU_SOURCE -Dpaho_mqtt3a_EXPORTS -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -I/home/office/source/cpp/mqtt_mongodb_bridge/build -g -fPIC   -fvisibility=hidden -o CMakeFiles/paho-mqtt3a.dir/MQTTAsyncUtils.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTAsyncUtils.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTAsyncUtils.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DPAHO_MQTT_IMPORTS=1 -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -fPIE   -fvisibility=hidden -o CMakeFiles/MQTTVersion.dir/MQTTVersion.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTVersion.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/MQTTVersion.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DBASE64_TEST -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g   -fvisibility=hidden -o CMakeFiles/Base64Test.dir/Base64.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Base64.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Base64.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/src",
+  "command": "/usr/bin/clang-15 -DSHA1_TEST -D_GNU_SOURCE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -g   -fvisibility=hidden -o CMakeFiles/Sha1Test.dir/SHA1.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/SHA1.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/SHA1.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15 -DNOLOG_MESSAGES -DNOSTACKTRACE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/thread.dir/thread.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/thread.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/thread.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15 -DNOLOG_MESSAGES -DNOSTACKTRACE -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/thread.dir/__/src/Thread.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Thread.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src/Thread.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test1.dir/test1.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test1.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test1.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test15.dir/test15.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test15.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test15.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test2.dir/test2.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test2.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test2.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test4.dir/test4.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test4.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test4.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test45.dir/test45.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test45.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test45.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test6.dir/test6.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test6.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test6.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test8.dir/test8.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test8.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test8.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test9.dir/test9.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test9.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test9.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test95.dir/test95.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test95.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test95.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test10.dir/test10.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test10.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test10.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test11.dir/test11.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test11.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test11.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test_issue373.dir/test_issue373.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test_issue373.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test_issue373.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test_sync_session_present.dir/test_sync_session_present.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test_sync_session_present.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test_sync_session_present.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.c/test",
+  "command": "/usr/bin/clang-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/src -g -o CMakeFiles/test_connect_destroy.dir/test_connect_destroy.c.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test_connect_destroy.c",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test/test_connect_destroy.c"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/async_client.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/async_client.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/async_client.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/client.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/client.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/client.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/connect_options.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/connect_options.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/connect_options.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/create_options.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/create_options.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/create_options.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/disconnect_options.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/disconnect_options.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/disconnect_options.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/iclient_persistence.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/iclient_persistence.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/iclient_persistence.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/message.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/message.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/message.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/properties.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/properties.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/properties.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/response_options.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/response_options.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/response_options.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/ssl_options.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/ssl_options.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/ssl_options.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/string_collection.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/string_collection.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/string_collection.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/subscribe_options.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/subscribe_options.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/subscribe_options.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/token.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/token.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/token.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/topic.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/topic.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/topic.cpp"
+},
+{
+  "directory": "/home/office/source/cpp/mqtt_mongodb_bridge/build/lib/paho.mqtt.cpp/src",
+  "command": "/usr/bin/clang++-15  -I/home/office/source/cpp/mqtt_mongodb_bridge/include -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src -I/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/src -g -fPIC -std=c++11 -o CMakeFiles/paho-cpp-objs.dir/will_options.cpp.o -c /home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/will_options.cpp",
+  "file": "/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src/will_options.cpp"
+}
+]
