@@ -1,1 +1,0 @@
-/usr/bin/clang-15 -g -rdynamic CMakeFiles/thread.dir/thread.c.o CMakeFiles/thread.dir/__/src/Thread.c.o -o thread   -L/home/office/source/cpp/mqtt_mongodb_bridge/lib  -Wl,-rpath,/home/office/source/cpp/mqtt_mongodb_bridge/lib -lc -ldl -lpthread 

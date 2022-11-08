@@ -10,11 +10,9 @@ add_subdirectory(${CMAKE_SOURCE_DIR}/lib/fmt)
 add_subdirectory(${CMAKE_SOURCE_DIR}/lib/paho.mqtt.c)
 add_subdirectory(${CMAKE_SOURCE_DIR}/lib/paho.mqtt.cpp)
 
-#find_library(${CMAKE_SOURCE_DIR}/lib libpaho-mqttpp3)
-#find_library(${CMAKE_SOURCE_DIR}/lib libpaho-mqtt3as)
 
 find_package(libpqxx REQUIRED)
-find_library(PQ_lib pq)
+#find_library(PQ_lib pq)
 
 
 add_executable(mqtt_postgresql main.cpp)

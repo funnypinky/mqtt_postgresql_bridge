@@ -1,1 +1,0 @@
-/usr/bin/clang-15 -g -rdynamic CMakeFiles/Sha1Test.dir/SHA1.c.o -o Sha1Test   -L/home/office/source/cpp/mqtt_mongodb_bridge/lib 
