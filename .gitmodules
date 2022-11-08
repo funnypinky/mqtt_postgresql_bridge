@@ -7,3 +7,6 @@
 [submodule "lib/fmt"]
 	path = lib/fmt
 	url = https://github.com/fmtlib/fmt.git
+[submodule "lib/libpqxx"]
+	path = lib/libpqxx
+	url = https://github.com/jtv/libpqxx.git
