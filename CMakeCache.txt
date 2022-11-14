@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Build documentation
+BUILD_DOC:BOOL=OFF
+
+//Build all test cases
+BUILD_TEST:BOOL=ON
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -28,7 +34,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+CMAKE_CXX_COMPILER:STRING=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -54,7 +60,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
+CMAKE_C_COMPILER:STRING=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -294,16 +300,57 @@ CPACK_SOURCE_TZ:BOOL=ON
 CPACK_SOURCE_ZIP:BOOL=OFF
 
 //Value Computed by CMake
-Eclipse Paho C_BINARY_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c
+Eclipse Paho C_BINARY_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-build
 
 //Value Computed by CMake
 Eclipse Paho C_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-Eclipse Paho C_SOURCE_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c
+Eclipse Paho C_SOURCE_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-src
+
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=/home/office/source/cpp/mqtt_mongodb_bridge/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=OFF
+
+//When not empty, overrides where to find pre-populated content
+// for fmt
+FETCHCONTENT_SOURCE_DIR_FMT:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for libpqxx
+FETCHCONTENT_SOURCE_DIR_LIBPQXX:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for paho.mqtt.c
+FETCHCONTENT_SOURCE_DIR_PAHO.MQTT.C:PATH=
+
+//When not empty, overrides where to find pre-populated content
+// for paho.mqtt.cpp
+FETCHCONTENT_SOURCE_DIR_PAHO.MQTT.CPP:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of fmt
+FETCHCONTENT_UPDATES_DISCONNECTED_FMT:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of libpqxx
+FETCHCONTENT_UPDATES_DISCONNECTED_LIBPQXX:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of paho.mqtt.c
+FETCHCONTENT_UPDATES_DISCONNECTED_PAHO.MQTT.C:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of paho.mqtt.cpp
+FETCHCONTENT_UPDATES_DISCONNECTED_PAHO.MQTT.CPP:BOOL=OFF
 
 //Value Computed by CMake
-FMT_BINARY_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt
+FMT_BINARY_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/fmt-build
 
 //Generate the cuda-test target.
 FMT_CUDA_TEST:BOOL=OFF
@@ -337,7 +384,7 @@ FMT_OS:BOOL=ON
 FMT_PEDANTIC:BOOL=OFF
 
 //Value Computed by CMake
-FMT_SOURCE_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/lib/fmt
+FMT_SOURCE_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/fmt-src
 
 //Expose headers with marking them as system.
 FMT_SYSTEM_HEADERS:BOOL=OFF
@@ -347,6 +394,9 @@ FMT_TEST:BOOL=OFF
 
 //Halt the compilation with an error on compiler warnings.
 FMT_WERROR:BOOL=OFF
+
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=/usr/bin/git
 
 //Path to a library.
 LIB_ANL:FILEPATH=/usr/lib/x86_64-linux-gnu/libanl.so
@@ -375,6 +425,27 @@ MQTT_WS_TEST_BROKER:STRING=ws://localhost:1883
 //WebSocket connection of a test proxy to use
 MQTT_WS_TEST_PROXY:STRING=tcp://localhost:1884
 
+//Path to a library.
+OPENSSLCRYPTO_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+
+//Path to a library.
+OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+
+//Path to a file.
+OPENSSL_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+OPENSSL_LIB:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+
+//Directory containing OpenSSL libraries and includes
+OPENSSL_ROOT_DIR:PATH=
+
+//Directory containing OpenSSL libraries and includes
+OPENSSL_SEARCH_PATH:PATH=
+
+//Path to a library.
+OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+
 //Build debian package
 PAHO_BUILD_DEB_PACKAGE:BOOL=FALSE
 
@@ -397,10 +468,10 @@ PAHO_BUILD_TESTS:BOOL=OFF
 PAHO_ENABLE_CPACK:BOOL=TRUE
 
 //Build tests and run
-PAHO_ENABLE_TESTING:BOOL=TRUE
+PAHO_ENABLE_TESTING:BOOL=OFF
 
 //Disable tracing and heap tracking
-PAHO_HIGH_PERFORMANCE:BOOL=FALSE
+PAHO_HIGH_PERFORMANCE:BOOL=ON
 
 //Path to a file.
 PAHO_MQTT_C_INCLUDE_DIRS:PATH=/usr/include
@@ -412,7 +483,13 @@ PAHO_MQTT_C_LIBRARIES:FILEPATH=/usr/lib/x86_64-linux-gnu/libpaho-mqtt3a.so
 PAHO_USE_SELECT:BOOL=FALSE
 
 //Build SSL-enabled library
-PAHO_WITH_SSL:BOOL=FALSE
+PAHO_WITH_SSL:BOOL=OFF
+
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 
 //Path to a library.
 PQ_lib:FILEPATH=/usr/lib/x86_64-linux-gnu/libpq.so
@@ -435,17 +512,26 @@ PostgreSQL_LIBRARY_RELEASE:FILEPATH=/usr/lib/x86_64-linux-gnu/libpq.so
 // /usr/local/include/PostgreSQL/8.4 or C:/Program Files/PostgreSQL/8.4/include
 PostgreSQL_TYPE_INCLUDE_DIR:PATH=PostgreSQL_TYPE_INCLUDE_DIR-NOTFOUND
 
+//Value Computed by CMake
+libpqxx_BINARY_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-build
+
 //The directory containing a CMake configuration file for libpqxx.
 libpqxx_DIR:PATH=/usr/local/lib/cmake/libpqxx
 
 //Value Computed by CMake
-mqtt-tests_BINARY_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test
+libpqxx_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+libpqxx_SOURCE_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-src
+
+//Value Computed by CMake
+mqtt-tests_BINARY_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.cpp-build/test
 
 //Value Computed by CMake
 mqtt-tests_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-mqtt-tests_SOURCE_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.c/test
+mqtt-tests_SOURCE_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.cpp-src/test
 
 //Value Computed by CMake
 paho-mqtt-cpp_BINARY_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp
@@ -457,13 +543,31 @@ paho-mqtt-cpp_IS_TOP_LEVEL:STATIC=OFF
 paho-mqtt-cpp_SOURCE_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp
 
 //Dependencies for the target
-paho-mqtt3a_LIB_DEPENDS:STATIC=general;c;general;dl;general;pthread;general;rt;general;anl;
+paho-mqtt3as_LIB_DEPENDS:STATIC=general;OpenSSL::SSL;general;OpenSSL::Crypto;general;c;general;dl;general;pthread;general;rt;general;anl;
 
 //Dependencies for the target
-paho-mqtt3c_LIB_DEPENDS:STATIC=general;c;general;dl;general;pthread;general;rt;general;anl;
+paho-mqtt3cs_LIB_DEPENDS:STATIC=general;OpenSSL::SSL;general;OpenSSL::Crypto;general;c;general;dl;general;pthread;general;rt;general;anl;
 
 //Dependencies for the target
 paho-mqttpp3_LIB_DEPENDS:STATIC=general;c;general;stdc++;general;PahoMqttC::PahoMqttC;
+
+//Value Computed by CMake
+paho_BINARY_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.cpp-build
+
+//Value Computed by CMake
+paho_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+paho_SOURCE_DIR:STATIC=/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.cpp-src
+
+//Path to a library.
+pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+
+//Path to a library.
+pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+
+//Dependencies for the target
+pqxx_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libpq.so;
 
 
 ########################
@@ -524,6 +628,8 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
+//Path to cache edit program executable.
+CMAKE_EDIT_COMMAND:INTERNAL=/usr/bin/ccmake
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -604,7 +710,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -659,12 +765,74 @@ CPACK_SOURCE_TXZ-ADVANCED:INTERNAL=1
 CPACK_SOURCE_TZ-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CPACK_SOURCE_ZIP
 CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
+//MODIFIED property for variable: FETCHCONTENT_QUIET
+FETCHCONTENT_QUIET-MODIFIED:INTERNAL=ON
+//Details about finding OpenSSL
+FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.5()]
 //Details about finding PahoMqttC
 FIND_PACKAGE_MESSAGE_DETAILS_PahoMqttC:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpaho-mqtt3a.so][/usr/include][v()]
 //Details about finding PostgreSQL
 FIND_PACKAGE_MESSAGE_DETAILS_PostgreSQL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libpq.so][/usr/include/postgresql][c ][v14.5()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENSSL_CRYPTO_LIBRARY
+OPENSSL_CRYPTO_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENSSL_INCLUDE_DIR
+OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENSSL_SSL_LIBRARY
+OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
+//MODIFIED property for variable: PAHO_ENABLE_TESTING
+PAHO_ENABLE_TESTING-MODIFIED:INTERNAL=ON
+//MODIFIED property for variable: PAHO_HIGH_PERFORMANCE
+PAHO_HIGH_PERFORMANCE-MODIFIED:INTERNAL=ON
+//MODIFIED property for variable: PAHO_WITH_SSL
+PAHO_WITH_SSL-MODIFIED:INTERNAL=ON
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//Result of TRY_COMPILE
+PQXX_HAVE_CHARCONV_FLOAT:INTERNAL=TRUE
+//Result of TRY_COMPILE
+PQXX_HAVE_CHARCONV_INT:INTERNAL=TRUE
+//Result of TRY_COMPILE
+PQXX_HAVE_CMP:INTERNAL=FALSE
+//Result of TRY_COMPILE
+PQXX_HAVE_CONCEPTS:INTERNAL=FALSE
+//Result of TRY_COMPILE
+PQXX_HAVE_CXA_DEMANGLE:INTERNAL=TRUE
+//Result of TRY_COMPILE
+PQXX_HAVE_GCC_PURE:INTERNAL=TRUE
+//Result of TRY_COMPILE
+PQXX_HAVE_GCC_VISIBILITY:INTERNAL=TRUE
+//Result of TRY_COMPILE
+PQXX_HAVE_LIKELY:INTERNAL=FALSE
+//Result of TRY_COMPILE
+PQXX_HAVE_MULTIDIMENSIONAL_SUBSCRIPT:INTERNAL=FALSE
+//Result of TRY_COMPILE
+PQXX_HAVE_PATH:INTERNAL=TRUE
+//Have function poll
+PQXX_HAVE_POLL:INTERNAL=1
+//Have symbol PQencryptPasswordConn
+PQXX_HAVE_PQENCRYPTPASSWORDCONN:INTERNAL=1
+//Have symbol PQenterPipelineMode
+PQXX_HAVE_PQ_PIPELINE:INTERNAL=1
+//Result of TRY_COMPILE
+PQXX_HAVE_SLEEP_FOR:INTERNAL=TRUE
+//Result of TRY_COMPILE
+PQXX_HAVE_SPAN:INTERNAL=FALSE
+//Result of TRY_COMPILE
+PQXX_HAVE_STRERROR_R:INTERNAL=TRUE
+//Result of TRY_COMPILE
+PQXX_HAVE_STRERROR_S:INTERNAL=FALSE
+//Result of TRY_COMPILE
+PQXX_HAVE_THREAD_LOCAL:INTERNAL=TRUE
+//Result of TRY_COMPILE
+PQXX_HAVE_UNREACHABLE:INTERNAL=FALSE
+//Result of TRY_COMPILE
+PQXX_HAVE_YEAR_MONTH_DAY:INTERNAL=FALSE
 //ADVANCED property for variable: PostgreSQL_INCLUDE_DIR
 PostgreSQL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PostgreSQL_LIBRARY_DEBUG
@@ -677,8 +845,52 @@ PostgreSQL_TYPE_INCLUDE_DIR-ADVANCED:INTERNAL=1
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+_OPENSSL_CFLAGS:INTERNAL=
+_OPENSSL_CFLAGS_I:INTERNAL=
+_OPENSSL_CFLAGS_OTHER:INTERNAL=
+_OPENSSL_FOUND:INTERNAL=1
+_OPENSSL_INCLUDEDIR:INTERNAL=/usr/include
+_OPENSSL_INCLUDE_DIRS:INTERNAL=
+_OPENSSL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto
+_OPENSSL_LDFLAGS_OTHER:INTERNAL=
+_OPENSSL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBRARIES:INTERNAL=ssl;crypto
+_OPENSSL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBS:INTERNAL=
+_OPENSSL_LIBS_L:INTERNAL=
+_OPENSSL_LIBS_OTHER:INTERNAL=
+_OPENSSL_LIBS_PATHS:INTERNAL=
+_OPENSSL_MODULE_NAME:INTERNAL=openssl
+_OPENSSL_PREFIX:INTERNAL=/usr
+_OPENSSL_STATIC_CFLAGS:INTERNAL=
+_OPENSSL_STATIC_CFLAGS_I:INTERNAL=
+_OPENSSL_STATIC_CFLAGS_OTHER:INTERNAL=
+_OPENSSL_STATIC_INCLUDE_DIRS:INTERNAL=
+_OPENSSL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread
+_OPENSSL_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
+_OPENSSL_STATIC_LIBDIR:INTERNAL=
+_OPENSSL_STATIC_LIBRARIES:INTERNAL=ssl;crypto;dl
+_OPENSSL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_STATIC_LIBS:INTERNAL=
+_OPENSSL_STATIC_LIBS_L:INTERNAL=
+_OPENSSL_STATIC_LIBS_OTHER:INTERNAL=
+_OPENSSL_STATIC_LIBS_PATHS:INTERNAL=
+_OPENSSL_VERSION:INTERNAL=3.0.5
+_OPENSSL_openssl_INCLUDEDIR:INTERNAL=
+_OPENSSL_openssl_LIBDIR:INTERNAL=
+_OPENSSL_openssl_PREFIX:INTERNAL=
+_OPENSSL_openssl_VERSION:INTERNAL=
+__pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
+__pkg_config_checked__OPENSSL:INTERNAL=1
 //Test has_std_17_flag
 has_std_17_flag:INTERNAL=1
 //Test has_std_1z_flag
 has_std_1z_flag:INTERNAL=1
+//Result of TRY_COMPILE
+need_fslib:INTERNAL=TRUE
+//ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto
+pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
+pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

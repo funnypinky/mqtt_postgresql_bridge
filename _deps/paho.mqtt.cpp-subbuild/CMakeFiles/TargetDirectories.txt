@@ -1,0 +1,3 @@
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.cpp-subbuild/CMakeFiles/paho.mqtt.cpp-populate.dir
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.cpp-subbuild/CMakeFiles/edit_cache.dir
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.cpp-subbuild/CMakeFiles/rebuild_cache.dir

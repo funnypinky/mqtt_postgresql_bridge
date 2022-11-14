@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/CMakeFiles/paho.mqtt.c-populate"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/CMakeFiles/paho.mqtt.c-populate.rule"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/CMakeFiles/paho.mqtt.c-populate-complete.rule"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/paho.mqtt.c-populate-prefix/src/paho.mqtt.c-populate-stamp/paho.mqtt.c-populate-build.rule"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/paho.mqtt.c-populate-prefix/src/paho.mqtt.c-populate-stamp/paho.mqtt.c-populate-configure.rule"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/paho.mqtt.c-populate-prefix/src/paho.mqtt.c-populate-stamp/paho.mqtt.c-populate-download.rule"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/paho.mqtt.c-populate-prefix/src/paho.mqtt.c-populate-stamp/paho.mqtt.c-populate-install.rule"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/paho.mqtt.c-populate-prefix/src/paho.mqtt.c-populate-stamp/paho.mqtt.c-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/paho.mqtt.c-populate-prefix/src/paho.mqtt.c-populate-stamp/paho.mqtt.c-populate-patch.rule"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/paho.mqtt.c-populate-prefix/src/paho.mqtt.c-populate-stamp/paho.mqtt.c-populate-test.rule"
+		},
+		{
+			"file" : "/home/office/source/cpp/mqtt_mongodb_bridge/_deps/paho.mqtt.c-subbuild/paho.mqtt.c-populate-prefix/src/paho.mqtt.c-populate-stamp/paho.mqtt.c-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"paho.mqtt.c-populate"
+		],
+		"name" : "paho.mqtt.c-populate"
+	}
+}

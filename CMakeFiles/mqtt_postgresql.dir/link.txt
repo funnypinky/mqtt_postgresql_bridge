@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/mqtt_postgresql.dir/main.cpp.o -o mqtt_postgresql  -Wl,-rpath,/home/office/source/cpp/mqtt_mongodb_bridge/lib/paho.mqtt.cpp/src lib/paho.mqtt.cpp/src/libpaho-mqttpp3.so.1.2.0 -lpaho-mqtt3as -lpqxx /usr/lib/x86_64-linux-gnu/libpq.so lib/fmt/libfmt.a /usr/lib/x86_64-linux-gnu/libpaho-mqtt3a.so 

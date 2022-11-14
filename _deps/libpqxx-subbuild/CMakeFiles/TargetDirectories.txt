@@ -1,0 +1,3 @@
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/CMakeFiles/libpqxx-populate.dir
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/CMakeFiles/edit_cache.dir
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/CMakeFiles/rebuild_cache.dir

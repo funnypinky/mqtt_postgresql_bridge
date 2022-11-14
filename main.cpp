@@ -163,35 +163,12 @@ class callback : public virtual mqtt::callback,
 				auto valTime = std::chrono::system_clock::from_time_t(unix_timestamp);
 				auto valTime_t = std::chrono::system_clock::to_time_t(valTime);
 				std::stringstream valTime_ss;
-				json vals = root["vals"];
-				double pressure, temperature, humidity, panel, bat;
-				for (json val : vals)
-				{
-					std::string name = val["nm"];
-					if (name == "bat")
-					{
-						bat = val["val"];
-						bat /= 1000.0;
-					}
-					if (name == "panel")
-					{
-						panel = val["val"];
-						panel /= 1000.0;
-					}
-					if (name == "temperature")
-					{
-						temperature = val["val"];
-					}
-					if (name == "rel humidity")
-					{
-						humidity = val["val"];
-					}
-					if (name == "pressure")
-					{
-						pressure = val["val"];
-						pressure /= 100.0;
-					}
-				}
+				double pressure=root["values"]["pressure"];
+				pressure /= 100.0;
+				double temperature = root["values"]["temperature"]; 
+				double humidity = root["values"]["humidity"];
+				double panel = root["values"]["panel"]; 
+				double bat = root["values"]["battery"];
 				std::stringstream sql_ss;
 				std::stringstream sql_ss_1;
 				valTime_ss << std::put_time(std::localtime(&valTime_t), "%Y-%m-%d %X");

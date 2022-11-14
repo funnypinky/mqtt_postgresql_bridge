@@ -1,0 +1,14 @@
+# Target labels
+ libpqxx-populate
+# Source files and their labels
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/CMakeFiles/libpqxx-populate
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/CMakeFiles/libpqxx-populate.rule
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/CMakeFiles/libpqxx-populate-complete.rule
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/libpqxx-populate-prefix/src/libpqxx-populate-stamp/libpqxx-populate-build.rule
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/libpqxx-populate-prefix/src/libpqxx-populate-stamp/libpqxx-populate-configure.rule
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/libpqxx-populate-prefix/src/libpqxx-populate-stamp/libpqxx-populate-download.rule
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/libpqxx-populate-prefix/src/libpqxx-populate-stamp/libpqxx-populate-install.rule
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/libpqxx-populate-prefix/src/libpqxx-populate-stamp/libpqxx-populate-mkdir.rule
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/libpqxx-populate-prefix/src/libpqxx-populate-stamp/libpqxx-populate-patch.rule
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/libpqxx-populate-prefix/src/libpqxx-populate-stamp/libpqxx-populate-test.rule
+/home/office/source/cpp/mqtt_mongodb_bridge/_deps/libpqxx-subbuild/libpqxx-populate-prefix/src/libpqxx-populate-stamp/libpqxx-populate-update.rule
